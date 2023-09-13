@@ -118,6 +118,6 @@ export class HeroService {
 
   /** Log a HeroService message with the MessageService */
   private log(message: string) {
-    this.MessageService.add(`HeroService: ${message}`);
+    this.MessageService.add(`Servicio HeroService: ${message}`);
   }
 }
